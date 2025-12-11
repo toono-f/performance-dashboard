@@ -3,8 +3,8 @@ name: Daily Empty Commit
 on:
   workflow_dispatch:
 
-  schedule:
-    - cron: "0 22 * * *" # JST 7:00 is UTC 22:00 of the previous day
+  # schedule:
+  # - cron: "0 22 * * *" # JST 7:00 is UTC 22:00 of the previous day
 
 jobs:
   build:
